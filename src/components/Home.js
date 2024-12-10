@@ -10,8 +10,14 @@ const Home = () => {
         <nav style={styles.nav}>
           <a href="#home" style={styles.navLink}>Home</a>
           <a href="#about" style={styles.navLink}>About</a>
+          {/* <a href="#skills" style={styles.navLink}>Skills</a> */}
+
           <a href="#projects" style={styles.navLink}>Projects</a>
+          <a href="#experience" style={styles.navLink}>Experience</a>
           <a href="#contact" style={styles.navLink}>Contact</a>
+
+
+          {/* <a href="#contact" style={styles.navLink}>Contact</a> */}
         </nav>
       </header>
 
@@ -153,6 +159,8 @@ const styles = {
     objectFit: 'cover',
     boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
   },
+ 
+  
 };
 
 export default Home;
